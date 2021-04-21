@@ -1,0 +1,300 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+}
+.header marquee{
+    font-size: 18px;
+    font-family: montserrat;
+    font-style: oblique;
+    font-weight: 300;
+}
+.logo_con h1, .logo_con h1 span{
+    color:black;
+    font-family: Montserrat,serif;
+    font-weight: 800;
+}
+li{
+    list-style-type: none;
+    margin: 0 3vw;
+    font-size: 3vh;
+}
+li a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 1vw;
+    font-family: Montserrat;
+    
+}
+li a:hover{
+    background-color: whitesmoke;
+    color: darkmagenta;
+}
+nav{
+    width: 99vw;
+    height: 28px;
+    background-color:black;
+    vertical-align: middle;
+}
+ul{
+    margin: 0;
+    top: 0;
+    display: flex;
+}
+body{
+    margin: 0;
+}
+
+/***Auction page***/
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  .container {
+    position: relative;
+    width: 80%;
+  }
+  .img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    align-self: center;
+  }
+  .overlay{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay a{
+      color: #ecce6c;
+  }
+  .buy-btn:hover, .detail-btn:hover{
+    background:maroon;
+  }
+  .detail-btn{
+    width: 120px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.6);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Calibri;
+    border-radius: 2px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  }
+  .buy-btn{
+      width: 120px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color:rgba(0,0,0,0.6);
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-family: Calibri;
+      border-radius: 2px;
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  }
+  .container:hover img {
+    opacity: 0.3;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .details-box{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      font-family: Calibri;
+  }
+  .type{
+      display: flex;
+      flex-direction: column;
+  }
+  .type a{
+      color: #222222;
+      margin: 5px 0px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      padding-right: 8px;
+  }
+  .type span{
+      color: rgba(26,26,26,0.5);
+  }
+  .price{
+      color: #333333;
+      font-weight: 600;
+      font-size: 1.1rem;
+      font-family: poppins;
+      letter-spacing: 0.5px;
+  }
+/****artists page****/
+.ar-box{
+    margin-left: 250px;
+}
+#gk_8{
+    font-size: medium;
+    color: #000;
+    margin-left:10px;
+    padding: 8px 8px 8px 8px; 
+}
+ #gk_8:hover{
+    border: 1px solid black;
+    background-color:black;
+    color: #f1f1f1;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.lower_head h1{
+    color:black;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 600;
+    margin-left: 32%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: 30px;
+}
+
+/***g__k page**/
+
+.box1{
+    width: 55%;
+    height: 450px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 10px;
+    align-items:center;
+}
+.col{
+    width:746px;
+    height:350px;
+    float:left;
+    border:3px dotted black ;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 6px;
+}
+.img{
+    width: 150px;
+    height:auto;
+    border-radius: 2px;
+}
+@media only screen and (max-width:480px) {
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin: 0;
+    }
+    a{
+        display: block;
+    }
+   
+}
+
+/****shoppng cart***/
+.shoppingcart{
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+    position: relative;
+    font-size: 1.6rem;
+}
+.shoppingcart i{
+    color: white;
+}
+.shoppingcart p{
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    font-size: 0.89rem;
+    padding: 5px 5px; 
+}
+.cartbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.8);
+    z-index:99999 ;
+    transition:0.3s linear ;
+    transform:scale(0) ;
+}
+.cartbox.active{
+    transform: scale(1);
+}
+.cartbox .cart{
+    position: relative;
+    height: 65%;
+    width: 80%;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartbox .cart i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f00;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.cartbox .cart i:hover{
+    background: #ff0000a5;
+}
+.cartbox .cart h1{
+    position: relative;
+    margin-top:2% ;
+    font-size: 2.8rem;
+    color: #017bf5;
+}
+ 
+/***mainpg artbox***/
+h3{
+    margin-left: 40%;
+}
+.a8ofday{
+    width: 800px;
+    height: auto;
+    margin-left:18%;
+}
+.a80fday_imgbox{
+    width: 100%;
+    height: auto;
+    margin-left: 34px;
+    margin-bottom: 5px;
+}
+
+
+

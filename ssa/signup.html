@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up to page</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"> 
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+</style>
+</head>
+<body>
+    <div class="logo_con">
+        <center><h1>SOUL<span> SPACE</span> ARTS</h1></center>
+    </div>
+    <div class="header">
+        <nav>
+            <ul>
+             <li>
+                <a href="mainpage.php">Home</a>
+            </li>
+            <li> 
+                <a href="contact.php">Contact</a>
+            </li>
+            <li>
+                <a href="Auction.html">Auction</a>
+            </li>
+            <li>
+                <a href="Artists.html">Artist</a>
+            </li>
+            <li>
+                <div class="shoppingcart">
+                    <p>0</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </li>
+          </ul>
+        </nav>
+                <marquee>Web Developer as a Profession but Artistian by Passion</marquee>
+       </div>
+<hr>
+
+  <form action="send.php" method="POST">
+    <h1>Sign Up</h1>
+    <hr>
+    <div class="box_sign">
+        <input type="email" placeholder="Enter Email" required>
+        <br>
+        <input type="password" placeholder="Enter password" required>
+        <br>
+        <input type="password" placeholder="Retype password" name="pswd_rep" required>
+        <br>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px">
+            Remember me
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" checked="checked" name="T&c" style="margin-bottom: 15px" required>
+            Agree to <a href="#" style="color: dodgerblue">Terms & Conditions </a>
+        </label>
+        <div class="signup_btns">
+            <button type="button" id="sgnupbtn" name="sgnupbtn"><b>Sign up</b></button>
+            <button type="button" id="cbtn" name="cancelbtn"><b>Cancel</b></button>
+        </div>
+    </div>
+    <div class="rig_nav" style="right: 0;">
+        <a href="login.html"><h2 id="logh2">Login</h2></a>
+    </div>
+    
+  
+  </form>
+
+
+</body>
+</html>

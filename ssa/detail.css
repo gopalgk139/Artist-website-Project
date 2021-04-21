@@ -1,0 +1,25 @@
+.column1{
+    width: 45%;
+    float: left;
+    padding: 5px;
+}
+.container1 {
+    position: relative;
+    width: 80%;
+  }
+  .img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  #cost{
+    color: #333333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+  }
+  

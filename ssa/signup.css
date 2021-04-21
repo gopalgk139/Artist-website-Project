@@ -1,0 +1,70 @@
+/******sign up page*********/
+form h1{
+    margin-left: 35%;
+}
+.box_sign{
+    width: 650px;
+    height: 450px;
+    margin-left: 33%;
+}
+input[type=email], input[type=password]{
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    display: inline;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=email]:focus, input[type=password]:focus{
+    background: #ddd;
+    outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button{
+    color: black;
+    width: 100%;
+    padding:14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    opacity: 0.8;
+}
+button:hover{
+    opacity: 1;
+}
+#cbtn{
+    background-color:#d61305;
+    padding: 14px 20px;
+}
+#sgnupbtn{
+    background-color:#0daf15c2;
+    padding: 14px 20px;
+}
+.rig_nav #logh2{
+    position:absolute;
+    width:160px;
+    height:80px;
+    top:50%;
+    margin-top:50px;
+    font:bold 13px/80px '6808df53';
+    letter-spacing:0.27em;
+    color:#da0e0e;
+    text-transform:uppercase;
+    text-align: center;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    -webkit-transform-origin:80px top;
+    -ms-transform-origin:80px top;
+    -moz-transform-origin:80px top;
+    -o-transform-origin:80px top;
+    transform-origin:80px top
+    }
+    .rig_nav #logh2:hover{
+       text-decoration: underline;
+       
+    }
